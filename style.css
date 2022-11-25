@@ -1,0 +1,170 @@
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  
+  font-family: Arial, Helvetica, sans-serif; /* fonte padrão e cor de fundo da page */
+  background-color: black;
+  
+  
+}
+
+.container{
+ max-width: 1000px; /*tamanho máximo do container e margin*/
+ margin: auto;
+
+   
+ 
+}
+
+header{
+  background-color: #48c5ce; /* cor do cabeçalho, texto centralizado, cor da letra e padding */
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+title{
+
+  font-size: 26px; /*fonte do titúlo */
+}
+
+
+
+section{
+  padding: 20px;
+  background-image: url(./images/images/people.jpg); /* padding da section, imagem de fundo e over flow riden para imagem caber no fundo */
+  overflow: hidden;
+}
+
+.formContainer{  /* tamanho máximno do container, cor, padding, float rigt para flutar na direita e e um back ground size para expandir a imagem no tamanho correto */
+   max-width: 230px;
+   background-color: #ffffffbb;
+   padding: 20px;
+   float: right;
+   background-size: cover;
+
+
+}
+
+h2{
+  font-size: 16px; /*font size do h2*/
+}
+
+.mb{ /*margin entre o h2 e o paragráfo. esse propriedade pega os dois*/
+  margin-bottom: 15px; 
+}
+
+input, select{  /*width dos inputs e select , box-sizing pra deixar tudo no msm temanho, padding, bottom e margin*/ 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+
+}
+
+input[type="submit"]{ /* propriedade da parência do botão input*/
+   color: white;
+   background-color: #48c5ce; 
+   font-weight: bold;
+
+}
+
+select{
+  -moz-appearance: none; /* propriedade para tirar o botão selct padrão do navegadores, antes de aplicar uma aporência padrão */
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-image: url(./images/images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center; /* posicionamento da ceta do select*/
+  
+}
+
+.pic{  
+  width: 160px;
+}
+
+footer{
+   background-color: #202121;;
+   padding: 40px;
+   text-align: center;
+
+}
+
+.description{
+  color: white;
+  text-align: left;
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 40px;
+} 
+
+.description p, .description h3{ 
+  margin-bottom: 20px;
+}
+
+.description h3{
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+
+  .formContainer{
+    
+     float: none;
+     max-width: 500px;
+    
+        
+        
+  }
+
+
+  
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+  
+ 
+  
+
+ 
+   
+
+
+    
+
+ 
+
+
+
